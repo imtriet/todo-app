@@ -13,7 +13,7 @@ const TodoSection = ({ todo, toggleTodo }) => {
 
     document.getElementById(todo.id).style.textDecoration = isComplete ? 'line-through' : '';
   };
-  console.log('003')
+  console.log('001')
   return (
     <div className='todo' id={`todo-${todo.id}`}>
       <span onClick={strikethroughTodo} id={todo.id}>{todo.value}</span>
